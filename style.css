@@ -1,0 +1,47 @@
+.heading{
+    font-style: bold;
+    color: azure;
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+
+.note{
+    font-size: 18px;
+    color: red;
+}
+
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+.div_speed{
+    float: left;
+}
+
+.div_speed_img, .div_volume_img{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed, #volume{
+    font-size: 23px;
+    margin: 15px;
+}
+
+.div_volume{
+    float: right;
+}
+
+.play_btn{
+    font-size: 23px;
+    width: 130px;
+}
+
+canvas{
+    border: 2px solid wheat;
+    border-radius: 20px;
+    margin-top: 40px;
+
+}
